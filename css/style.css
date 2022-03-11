@@ -44,6 +44,12 @@ img {
   max-width: 100%;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 #posts{
   display: grid;
   gap: 10px;
@@ -236,6 +242,11 @@ img {
 .post__content{
   margin: 10px 0;
   color: gray;
+}
+
+
+.text-justify{
+  text-align: justify;
 }
 
 #liked{
